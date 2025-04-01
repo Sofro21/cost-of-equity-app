@@ -6,9 +6,8 @@
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "start": "next start",
-  "deploy": "next build && touch out/.nojekyll && gh-pages -d out --add"
-  },
+  "deploy": "next build && echo > out/.nojekyll && gh-pages -d out --add"
+},
 
   "dependencies": {
     "next": "15.2.4",
