@@ -6,6 +6,6 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/cost-of-equity-app/frontend' : '',
-  assetPrefix: isProd ? '/cost-of-equity-app/frontend/' : '',
+  basePath: isProd ? '/cost-of-equity-app' : '',
+  assetPrefix: isProd ? '/cost-of-equity-app/' : '',
 };
