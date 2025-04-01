@@ -8,9 +8,9 @@ export default function CostOfEquityTool() {
   const [loading, setLoading] = useState(false);
 
   const handleCalculate = async () => {
-    console.log("Sofrp")
     setLoading(true);
-    const response = await fetch("https://cost-of-equity-app.onrender.com", {
+    console.log("Sofrp")
+    const response = await fetch("https://cost-of-equity-app.onrender.com/calculate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ ticker, startDate, endDate })
