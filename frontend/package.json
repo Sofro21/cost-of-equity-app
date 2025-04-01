@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/cost-of-equity-app",
+  "homepage": "https://sofro21.github.io/cost-of-equity-app",
 "scripts": {
   "dev": "next dev",
   "build": "next build",

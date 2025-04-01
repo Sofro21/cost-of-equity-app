@@ -53,8 +53,8 @@ export default function CostOfEquityTool() {
         <div className="results">
           <div className="result-box">
             <h2>CAPM Results</h2>
-            <p>Intercept: {results.capm.intercept.toFixed(4)}</p>
-            <p>Beta: {results.capm.beta.toFixed(4)}</p>
+            {/* <p>Intercept: {results.capm.intercept.toFixed(4)}</p> */}
+            {/* <p>Beta: {results.capm.beta.toFixed(4)}</p>
             <p>R²: {results.capm.R2.toFixed(4)}</p>
             <p>Expected Return: {(results.capm.expected_return_annual * 100).toFixed(2)}%</p>
           </div>
@@ -66,7 +66,7 @@ export default function CostOfEquityTool() {
             <p>Beta (SMB): {results.ff3.beta_smb.toFixed(4)}</p>
             <p>Beta (HML): {results.ff3.beta_hml.toFixed(4)}</p>
             <p>R²: {results.ff3.R2.toFixed(4)}</p>
-            <p>Expected Return: {(results.ff3.expected_return_annual * 100).toFixed(2)}%</p>
+            <p>Expected Return: {(results.ff3.expected_return_annual * 100).toFixed(2)}%</p> */}
           </div>
         </div>
       )}
