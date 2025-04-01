@@ -8,6 +8,7 @@ export default function CostOfEquityTool() {
   const [loading, setLoading] = useState(false);
 
   const handleCalculate = async () => {
+    console.log("Sofrp")
     setLoading(true);
     const response = await fetch("https://cost-of-equity-app.onrender.com", {
       method: "POST",
@@ -22,7 +23,7 @@ export default function CostOfEquityTool() {
   return (
     <div className="container">
       <h1>Cost of Equity Explorer</h1>
-
+        <h1>Sofro</h1>
       <div className="card">
         <label>Ticker</label>
         <select value={ticker} onChange={(e) => setTicker(e.target.value)}>
