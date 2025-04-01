@@ -6,6 +6,6 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/cost-of-equity-app' : '',
-  assetPrefix: isProd ? '/cost-of-equity-app/' : '',
+  basePath: isProd ? '/cost-of-equity-app/tree/gh-pages' : '',
+  assetPrefix: isProd ? '/cost-of-equity-app/tree/gh-pages/' : '',
 };
